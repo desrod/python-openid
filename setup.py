@@ -1,5 +1,5 @@
-import sys
 import os
+import sys
 
 try:
     from setuptools import setup
@@ -9,15 +9,11 @@ except ImportError:
 if 'sdist' in sys.argv:
     os.system('./admin/makedoc')
 
-if not sys.version_info[0] == 2:
-    sys.exit("Sorry, Python 3 is not supported. Please use python3-openid")
-
 version = '[library version:2.2.5]'[17:-1]
 
 setup(
     name='python-openid',
     version=version,
-    python_requires=">2.6.*,<3.0.*",
     description='OpenID support for servers and consumers.',
     long_description='''This is a set of Python packages to support use of
 the OpenID decentralized identity system in your application.  Want to enable
@@ -50,4 +46,5 @@ and support for a variety of storage back-ends.''',
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: System :: Systems Administration :: Authentication/Directory",
     ],
+    python_requires='>2.6*,<3'
     )

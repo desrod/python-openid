@@ -17,11 +17,11 @@ INSTALLATION
 
 To install the base library, just run the following command:
 
-python setup.py install
+sudo pip install -e .
 
-To run setup.py you need the distutils module from the Python standard
-library; some distributions package this seperately in a "python-dev"
-package.
+To install this module, you'll need to install 'pip' and its related
+dependencies from your distribution's package repository.  These are
+typically called 'python-setuptools' and 'python-wheel'
 
 
 GETTING STARTED
