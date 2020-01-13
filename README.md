@@ -17,7 +17,7 @@ INSTALLATION
 
 To install the base library, just run the following command:
 
-sudo pip install -e .
+pip install -e .
 
 To install this module, you'll need to install 'pip' and its related
 dependencies from your distribution's package repository.  These are

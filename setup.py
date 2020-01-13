@@ -46,5 +46,5 @@ and support for a variety of storage back-ends.''',
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: System :: Systems Administration :: Authentication/Directory",
     ],
-    python_requires='>2.6*,<3'
+    python_requires='>=2.6,<3'
     )
